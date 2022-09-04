@@ -4,7 +4,7 @@ Some of my zsh preferences, plus a tool to help with splitting `.zshrc` into mul
 
 ### Folder structure:
 - `src`: zsh config, split into multiple `.zsh` files
-- `src/local`: same as rest of `src`, but .gitignore'd - this is for storing device-specific config info.
+- `src/local`: same as rest of `src`, but .gitignore'd - this is for storing device-specific config.
 - `old`: contains backups of old versions of `.zshrc`
 
 ### First use:
