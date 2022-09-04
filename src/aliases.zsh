@@ -15,7 +15,7 @@ fi
 alias zconf="cat ~/.zshrc"
 
 # Update zshrc and source it
-alias zup="$ZSH_CONFIG_SRC_DIR/deploy.sh; source ~/.zshrc"
+alias zup="$ZSH_CONFIG_SRC_DIR/run.sh; source ~/.zshrc"
 
 alias ls="ls --color=auto"
 

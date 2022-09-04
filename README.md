@@ -8,7 +8,7 @@ Some of my zsh preferences, plus a tool to help with splitting `.zshrc` into mul
 - `old`: contains backups of old versions of `.zshrc`
 
 ### First use:
-To override current version of `.zshrc`, run the `deploy.sh` script and then `source ~/.zshrc`.
+To override current version of `.zshrc`, run the `run.sh` script and then `source ~/.zshrc`.
 
 ### Subsequent uses:
 To update `.zshrc` later, simply run the helper command `zup`. To display current version of `.zshrc`, use command `zconf`.
