@@ -14,8 +14,8 @@ fi
 # Show zshrc
 alias zconf="cat ~/.zshrc"
 
-# Update zshrc and source it
-alias zup="$ZSH_CONFIG_SRC_DIR/run.sh; source ~/.zshrc"
+# Update zshrc and source it (global alias to allow usage in functions)
+alias -g zup="$ZSH_CONFIG_SRC_DIR/run.sh; source ~/.zshrc"
 
 alias ls="ls --color=auto"
 
