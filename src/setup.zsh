@@ -9,3 +9,6 @@ setopt autocd autopushd
 
 # Vim keybindings
 bindkey -v
+
+# nvm
+source ~/.nvm/nvm.sh
